@@ -1,0 +1,14 @@
+.ref {
+    font-size: 18px;
+    font-weight: bold;
+}
+h1 {
+    color: blueviolet;
+}
+h5 {
+    color: blue;
+    font-style: italic; 
+}
+p:nth-child(odd)::first-letter {
+    font-size: 30px;
+}
