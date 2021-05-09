@@ -12,3 +12,11 @@ h5 {
 p:nth-child(odd)::first-letter {
     font-size: 30px;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 1000px;
+    background-color: gold;
+    text-align: center;
+}
